@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.warunakavinda.parkingmate.sliit"
+    tools:showIn="@layout/acsliit"
+    android:background="@drawable/tep">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A"
+        android:id="@+id/ss1"
+        android:layout_marginBottom="149dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginEnd="72dp"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView9"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_alignTop="@+id/ss1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView10"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView11"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/ss1"
+        android:layout_alignStart="@+id/ss1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView12"
+        android:layout_marginBottom="35dp"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView13"
+        android:textColor="#ec2525"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+</RelativeLayout>

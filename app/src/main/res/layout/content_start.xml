@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.warunakavinda.parkingmate.start"
+    tools:showIn="@layout/acstart"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Register"
+        android:id="@+id/btnreg"
+        android:onClick="register"
+        android:layout_marginBottom="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnlog"
+        android:layout_alignStart="@+id/btnlog"
+        android:textSize="25sp"
+        android:background="?attr/colorPrimary"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnlog"
+        android:layout_marginBottom="44dp"
+        android:layout_above="@+id/btnreg"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textSize="25sp"
+        android:background="?attr/colorPrimary"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please Login"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtlemail"
+        android:hint="Email"
+        android:textColor="#5084f7"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp"
+        android:backgroundTint="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtlpassword"
+        android:backgroundTint="#000000"
+        android:hint="Password"
+        android:layout_below="@+id/txtlemail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txt1"
+        android:layout_above="@+id/btnlog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txt2"
+        android:layout_alignTop="@+id/txt1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+   <!-- <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn"
+        android:id="@+id/button7"
+        android:onClick="reddah"
+        android:layout_below="@+id/txtlpassword"
+        android:layout_alignRight="@+id/btnlog"
+        android:layout_alignEnd="@+id/btnlog" />-->
+
+</RelativeLayout>
